@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolder, faFile, faTrash, faEdit } from "@fortawesome/free-solid-svg-icons";
 import { getFileIcon } from './utils/iconMapper'; 
-import folderStructure from './FolderStructure';
+import folderStructure from './folderStructure';
 import './FileExplorer.css'; 
 import boyImage from './assets/boy.png';  // Importing the image
 
