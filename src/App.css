@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.file-explorer {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.action-buttons {
+  margin-top: 10px;
+}
+
+.file-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.file-actions button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.file-actions button:hover {
+  color: #ff4b5c;
+}

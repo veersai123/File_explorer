@@ -1,0 +1,92 @@
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+.file-explorer {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px; 
+    height: 500px; 
+    overflow-y: auto; 
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    gap: 8px; 
+}
+
+button {
+    background-color: transparent;  
+    border: none;
+    width: 30px;  /* Fixed width */
+    height: 30px;  /* Fixed height */
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+button:hover {
+    color: #4caf50; 
+}
+
+button svg {
+    width: 20px; 
+    height: 20px;
+}
+
+.folder-icon {
+    color: #f1c40f; 
+}
+
+.file-icon {
+    color: #3498db; 
+}
+
+.folder-header, .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px; /* Reduced bottom margin */
+    padding: 5px 0;
+}
+
+
+
+.folder-header > span svg,
+.file-item > span svg {
+  margin-right: 3px; 
+  padding-right: 0; 
+}
+
+.file-item > span {
+  padding-left: 0; 
+  margin-left: 0; 
+}
+
+input {
+    background-color: #444;
+    border: none;
+    padding: 4px;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+}
+
+/* Adjust spacing for nested items */
+.nested-folder {
+    margin-left: 20px; 
+}
